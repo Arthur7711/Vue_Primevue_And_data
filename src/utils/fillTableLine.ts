@@ -1,0 +1,1 @@
+export default (title: string, dataIndex: string,  options: object = {}) => ({ title, dataIndex,  ...options })

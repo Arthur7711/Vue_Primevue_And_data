@@ -1,0 +1,35 @@
+.importing_reports_page {
+    width: 99vw;
+    min-height: 120vh;
+    margin-left: -24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 108px 24px 0 24px !important;
+    background-color: $neutrals-background-default;
+    &-toplinks {
+      div {
+        :first-child {
+          cursor: pointer;
+          color: #162031;
+        }
+        & > :nth-child(2) {      
+          color: $neutrals-text-hint;
+        }
+      }
+    }
+    &:first-child {
+      width: 100vw;
+      display: flex;
+      align-items: start;
+    }
+    &-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 16px;
+    }
+  }

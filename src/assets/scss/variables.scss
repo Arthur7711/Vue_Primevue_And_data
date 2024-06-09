@@ -1,0 +1,192 @@
+//colors
+$primary-text-default: #1860dc;
+$primary-text-hover: #0F4CBD;
+$primary-button-hover: #0f4cbd;
+$neutrals-text-primary: #162138;
+$neutrals-text-secondary: #576b8b; 
+$neutrals-text-invert: #ffffff;
+$neutrals-text-hint: #8393a9;
+$neutrals-icon-secondary: #576B8B;
+
+// borders
+$neutrals-border-default: #e2e5ea; 
+$neutrals-border-weak: #E2E5EA;
+
+// backgrounds
+$primary-background-active: #0c3b92;
+$primary-background-weak-active: #d6e7fa;
+$primary-background-weak-hover: #edf4fd; 
+$danger-background-default: #c9332c;
+$neutrals-background-strong: #576b8b;
+$neutrals-background-semi: #e2e5ea;
+$neutrals-background-default: #f9fafb;
+$neutrals-background-white: #FFFFFF;
+$neutrals-background-weak: #f4f5f8;
+$neutrals-background-hover: #F4F5F8;
+$disabled-background: #9d9d9d;
+$positive-background-weak: #D9ECD5;
+$support-cinnamon-background-strong: #904a00;
+$support-cinnamon-background-default: #ac5c00;
+$support-cinnamon-background-weak: #cc6e00;
+$support-orange-background-semi: #feb867;
+$support-orange-background-default: #fed09a;
+$support-orange-background-weak: #ffccb8;
+$support-yellow-background-semi: #fff01a;
+$support-yellow-background-default: #ffe53e;
+$support-yellow-background-weak: #fff5b2;
+$support-lime-background-default: #d5f200;
+$support-chartreuse-background-default: #98fb00;
+$support-green-background-default: #72ff6c;
+$support-teal-background-semi: #009e8c;
+$support-sky-background-default: #aee9ff;
+$support-purple-background-strong: #b01fe3;
+
+$success-background-default: #00a21f;
+
+@mixin Monument-Extended() {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  letter-spacing: -0.08em;
+}
+
+@mixin Page-Title() {
+  // font-family: 'Source Sans 3';
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.002em;
+  text-align: left;
+}
+
+@mixin Title-H2() {
+  //styleName: Title/H3;
+  // font-family: 'Source Sans 3';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.002em;
+  text-align: left;
+}
+
+@mixin Title-H3() {
+  //styleName: Title/H3;
+  // font-family: 'Source Sans 3';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.002em;
+  text-align: left;
+}
+
+@mixin Title-H4() {
+  //styleName: Title/H4;
+  // font-family: 'Inter';
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.002rem;
+}
+
+@mixin Button-M() {
+  //styleName: Button/Button M;
+  // font-family: 'Source Sans 3';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@mixin Body-M() {
+  //styleName: Body/Body M;
+  // font-family: 'Source Sans 3';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@mixin Body-M-14-Regular() {
+  //styleName: Body/M-14 Regular;
+  // font-family: 'Source Sans 3';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@mixin Body-M-14-Bold() {
+  //styleName: Body/M-14 Bold;
+  // font-family: 'Source Sans 3';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+@mixin Body-L() {
+  //styleName: Body/Body L;
+  // font-family: 'Source Sans 3';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@mixin Body-L-16-Bold() {
+  //styleName: Body/L-16 Bold;
+  // font-family: 'Source Sans 3';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@mixin Body-L-16-Regular() {
+  //styleName: Body/L-16 Regular;
+  // font-family: 'Source Sans 3';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@mixin Body-S-12-Regular() {
+  //styleName: Body/S-12 Regular;
+  // font-family: 'Source Sans 3';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@mixin Body-S-12-Bold() {
+  //styleName: Body/S-12 Bold;
+  // font-family: 'Source Sans 3';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+@mixin Body-XS-10-Bold() {
+  //styleName: Body/XS-10 Bold;
+  // font-family: 'Source Sans 3';
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  width: 11px;
+  height: 12px;
+}
+
+@mixin Title() {
+}
+
+@mixin Title() {
+}

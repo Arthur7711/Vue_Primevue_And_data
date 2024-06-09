@@ -1,0 +1,8 @@
+@import './color-marker.scss';
+@import './grid.scss';
+@import './ant-tooltip.scss';
+
+.page-title {
+  @include Page-Title;
+  margin-bottom: 16px;
+}

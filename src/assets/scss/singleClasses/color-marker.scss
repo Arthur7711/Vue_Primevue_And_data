@@ -1,0 +1,190 @@
+.color-marker.color-marker {
+  &_pitch {
+    background-color: $support-cinnamon-background-strong;
+    color: $neutrals-text-invert;
+
+    svg {
+      fill: $neutrals-text-invert;
+    }
+  }
+
+  &_concept {
+    background-color: $support-cinnamon-background-default;
+    color: $neutrals-text-invert;
+
+    svg {
+      fill: $neutrals-text-invert;
+    }
+  }
+
+  &_feasibility {
+    background-color: $support-cinnamon-background-weak;
+    color: $neutrals-text-invert;
+
+    svg {
+      fill: $neutrals-text-invert;
+    }
+  }
+
+  &_prototype {
+    background-color: $support-orange-background-weak;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_1st-playable {
+    background-color: $support-orange-background-semi;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_vertical-slice {
+    background-color: $support-orange-background-weak;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_vertical-chunk {
+    background-color: $support-yellow-background-weak;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_alpha {
+    background-color: $support-yellow-background-default;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_content-complete {
+    background-color: $support-yellow-background-semi;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_beta {
+    background-color: $support-lime-background-default;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_code-lock {
+    background-color: $support-chartreuse-background-default;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_certification {
+    background-color: $support-green-background-default;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_rtm {
+    background-color: $support-teal-background-semi;
+    color: $neutrals-text-invert;
+
+    svg {
+      fill: $neutrals-text-invert;
+    }
+  }
+
+  &_post-launch {
+    background-color: $support-sky-background-default;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_cancelled {
+    background-color: $danger-background-default;
+    color: $neutrals-text-invert;
+
+    svg {
+      fill: $neutrals-text-invert;
+    }
+  }
+
+  &_blocked-on-hold {
+    background-color: $support-purple-background-strong;
+    color: $neutrals-text-invert;
+
+    svg {
+      fill: $neutrals-text-invert;
+    }
+  }
+
+  &_complete {
+    background-color: $neutrals-background-semi;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_no-milestones {
+    background-color: $neutrals-background-strong;
+    color: $neutrals-text-invert;
+
+    svg {
+      fill: $neutrals-text-invert;
+    }
+  }
+
+  &_deleted {
+    background-color: $danger-background-default;
+    color: $neutrals-text-invert;
+
+    svg {
+      fill: $neutrals-text-invert;
+    }
+  }
+
+  &_created {
+    background-color: $support-green-background-default;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+
+  &_edited {
+    background-color: $support-sky-background-default;
+    color: $neutrals-text-primary;
+
+    svg {
+      fill: $neutrals-text-primary;
+    }
+  }
+}

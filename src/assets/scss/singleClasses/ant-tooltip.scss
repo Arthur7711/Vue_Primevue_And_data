@@ -1,0 +1,12 @@
+html .ant-tooltip-inner {
+  border-radius: 8px;
+  background-color: white !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  min-height: 16px;
+
+  @include Body-S-12-Regular();
+}
+
+html .ant-tooltip-arrow-content {
+  background-color: white !important;
+}
